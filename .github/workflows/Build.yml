@@ -32,7 +32,6 @@ jobs:
 
       - name: Upload APKs
         uses: actions/upload-artifact@v3
-        with:
           name: tachiyomi-extensions
           path: "**/build/outputs/apk/**/*.apk"
             - name: Download a Build Artifact
