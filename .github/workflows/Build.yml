@@ -1,7 +1,7 @@
 name: Build Extensions
 
 on:
-  workflow_dispatch: # lets you run manually
+  workflow_dispatch: # lets you run it manually
 
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: tachiyomi-extensions
-          path: **/build/outputs/apk/**/*.apk
+          path: "**/build/outputs/apk/**/*.apk"
